@@ -1,0 +1,11 @@
+path+=(~/.local/bin)
+path+=(~/.cargo/bin)
+path+=(~/go/bin)
+# export GDK_SCALE=2
+# export QT_SCALE_FACTOR=1.5
+export QT_QPA_PLATFORMTHEME=kde
+export XDG_CURRENT_DESKTOP=KDE
+export MOZ_ENABLE_WAYLAND=1
+export GTK_USE_PORTAL=0
+export MICRO_TRUECOLOR=1
+export SUDO_PROMPT=' 󰌋  password: '

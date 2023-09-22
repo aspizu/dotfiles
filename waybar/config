@@ -1,0 +1,90 @@
+{
+  "layer": "bottom",
+  "height": 24,
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "spacing": 0,
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window",
+  ],
+  "modules-center": [
+    "mpris",
+  ],
+  "modules-right": [
+    "keyboard-state",
+    "disk",
+    "cpu",
+    "temperature",
+    "memory",
+    "backlight",
+    "network",
+    "battery",
+    "wireplumber",
+    "clock"
+  ],
+  "keyboard-state": {
+    "numlock": true,
+    "capslock": true,
+    "format": {
+      "numlock": " 󰎠",
+      "capslock": "󰪛 ",
+    },
+  },
+  "clock": {
+    "format": "{:%a %b %d %I:%M %p}"
+  },
+  "mpris": {
+    "interval": 1,
+    "title-len": 30,
+    "format-playing": "󰝚  {dynamic}",
+    "format-paused": "  {dynamic}"
+  },
+  "network": {
+    "interval": 1,
+    "format-wifi": "  {essid}",
+    "format-disconnected": "󰤭  OFFLINE",
+    "format-ethernet": "  ONLINE",
+  },
+  "hyprland/workspaces": {
+    "all-outputs": true,
+  },
+  "hyprland/window": {
+    "format": "{title}",
+    "title-len": 30,
+    "rewrite": {
+      "(.*) - Discord": "󰙯  $1",
+      "(.*) — Mozilla Firefox": "  $1",
+      "(.*) — Dolphin": "  $1",
+      "(.*) - Visual Studio Code": "󰨞  $1",
+    }
+  },
+  "wireplumber": {
+    "format": "  {volume}%"
+  },
+  "battery": {
+    "format-full": "󰁹 FULL",
+    "format-charging": "󰂄 {capacity}%",
+    "format-discharging": "󰁼 {capacity}%"
+  },
+  "disk": {
+    "interval": "30",
+    "format": "{used} of homework ;)",
+    "path": "/home/aspizu"
+  },
+  "backlight": {
+    "format": "  {percent}%"
+  },
+  "memory": {
+    "format": "  {percentage}%",
+  },
+  "temperature": {
+    "interval": 1,
+    "format": "{temperatureC}󰔄"
+  },
+  "cpu": {
+    "interval": 1,
+    "format": "  {usage}%"
+  }
+}
