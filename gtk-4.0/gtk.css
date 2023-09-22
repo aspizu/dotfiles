@@ -1,0 +1,90 @@
+/*
+Generated with Gradience
+
+Issues caused by theming should be reported to Gradience repository, and not to upstream
+
+https://github.com/GradienceTeam/Gradience
+*/
+
+@define-color accent_color #7fbbb3;
+@define-color accent_bg_color #7fbbb3;
+@define-color accent_fg_color #2b3339;
+@define-color destructive_color #e76e80;
+@define-color destructive_bg_color #e76e80;
+@define-color destructive_fg_color #2b3339;
+@define-color success_color #a7c080;
+@define-color success_bg_color #a7c080;
+@define-color success_fg_color #2b3339;
+@define-color warning_color #ddbc7f;
+@define-color warning_bg_color #ddbc7f;
+@define-color warning_fg_color #2b3339;
+@define-color error_color #e76e80;
+@define-color error_bg_color #e76e80;
+@define-color error_fg_color #2b3339;
+@define-color window_bg_color #2b3339;
+@define-color window_fg_color #d3c6aa;
+@define-color view_bg_color #2b3339;
+@define-color view_fg_color #d3c6aa;
+@define-color headerbar_bg_color #2b3339;
+@define-color headerbar_fg_color #d3c6aa;
+@define-color headerbar_border_color #d3c6aa;
+@define-color headerbar_backdrop_color @window_bg_color;
+@define-color headerbar_shade_color rgba(0, 0, 0, 0.36);
+@define-color card_bg_color rgba(255, 255, 255, 0.08);
+@define-color card_fg_color #d3c6aa;
+@define-color card_shade_color rgba(0, 0, 0, 0.36);
+@define-color dialog_bg_color #2b3339;
+@define-color dialog_fg_color #d3c6aa;
+@define-color popover_bg_color #2b3339;
+@define-color popover_fg_color #d3c6aa;
+@define-color shade_color rgba(0,0,0,0.36);
+@define-color scrollbar_outline_color rgba(0,0,0,0.5);
+@define-color blue_1 rgb(191,221,217);
+@define-color blue_2 rgb(155,202,196);
+@define-color blue_3 rgb(127,187,179);
+@define-color blue_4 rgb(98,172,162);
+@define-color blue_5 rgb(78,148,138);
+@define-color green_1 rgb(211,223,191);
+@define-color green_2 rgb(186,206,156);
+@define-color green_3 rgb(167,192,128);
+@define-color green_4 rgb(146,177,98);
+@define-color green_5 rgb(124,154,76);
+@define-color yellow_1 rgb(237,221,191);
+@define-color yellow_2 rgb(227,203,155);
+@define-color yellow_3 rgb(219,188,127);
+@define-color yellow_4 rgb(208,168,89);
+@define-color yellow_5 rgb(194,147,55);
+@define-color orange_1 rgb(240,206,191);
+@define-color orange_2 rgb(232,179,156);
+@define-color orange_3 rgb(225,157,128);
+@define-color orange_4 rgb(216,126,88);
+@define-color orange_5 rgb(206,96,49);
+@define-color red_1 rgb(242,190,191);
+@define-color red_2 rgb(235,154,156);
+@define-color red_3 rgb(230,126,128);
+@define-color red_4 rgb(222,84,87);
+@define-color red_5 rgb(214,42,46);
+@define-color purple_1 rgb(234,204,218);
+@define-color purple_2 rgb(223,175,198);
+@define-color purple_3 rgb(214,153,182);
+@define-color purple_4 rgb(199,116,156);
+@define-color purple_5 rgb(185,80,130);
+@define-color brown_1 rgb(211,173,126);
+@define-color brown_2 rgb(202,166,121);
+@define-color brown_3 rgb(183,150,109);
+@define-color brown_4 rgb(164,134,98);
+@define-color brown_5 rgb(138,113,81);
+@define-color light_1 rgb(233,226,212);
+@define-color light_2 rgb(221,211,189);
+@define-color light_3 rgb(211,198,170);
+@define-color light_4 rgb(193,174,135);
+@define-color light_5 rgb(175,151,100);
+@define-color dark_1 rgb(161,172,178);
+@define-color dark_2 rgb(109,125,134);
+@define-color dark_3 rgb(75,86,92);
+@define-color dark_4 rgb(65,74,79);
+@define-color dark_5 rgb(54,62,66);
+
+.navigation-sidebar {
+background-color: #2b3339;
+}
