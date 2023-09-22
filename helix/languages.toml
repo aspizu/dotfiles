@@ -1,0 +1,30 @@
+[[language]]
+name = "python"
+roots = ["pyproject.toml"]
+language-server = { command = "pyright-langserver", args = ["--stdio"] }
+config = {} # <- this is the important line
+formatter = { command = "black", args = ["--quiet", "-"] }
+auto-format = true
+
+[[language]]
+name = "go"
+formatter = { command = "gofumpt" }
+auto-format = true
+
+[[language]]
+name = "goboscript"
+scope = "source.goboscript"
+roots = ["stage.gobo"]
+language-server = { command = "python", args = ["-m", "goboscript_lsp"] }
+file-types = ["gobo"]
+
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "c"
+auto-format = true
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"

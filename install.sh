@@ -6,12 +6,13 @@ echo "To prevent accidental destruction of your system, edit install.sh to remov
 exit 100
 
 mkdir -p ~/.config
-rm -rf ~/Wallpapers ~/.config/{hypr,wofi,waybar,gtk-3.0,gtk-4.0} || true
+rm -rf ~/Wallpapers ~/.config/{hypr,wofi,waybar,gtk-3.0,gtk-4.0,helix} || true
 
 cp .wezterm.lua     ~/.wezterm.lua
 cp .zshenv          ~/.zshenv
 cp .zshrc           ~/.zshrc
 cp -r hypr          ~/.config/hypr
+cp -r helix         ~/.config/helix
 cp -r wofi          ~/.config/wofi
 cp -r waybar        ~/.config/waybar
 cp -r Wallpapers    ~/Wallpapers

@@ -1,0 +1,26 @@
+theme = "everforest_dark_hc"
+
+[editor]
+bufferline = "always"
+cursorline = true
+rulers = [128]
+
+[editor.indent-guides]
+render = true
+character = '▏'
+skip-level = 1
+
+[keys.normal]
+"ret" = ["open_below", "normal_mode"]
+C-j = ["extend_to_line_bounds", "delete_selection", "move_line_down", "paste_before"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "move_line_up", "paste_after"]
+"C-tab" = "no_op"
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "bar"
