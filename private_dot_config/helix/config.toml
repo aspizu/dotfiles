@@ -18,4 +18,4 @@ C-q = ":q"
 ret = ["open_below", "normal_mode"]
 
 [keys.insert]
-C-s = ["normal_mode", "write"]
+C-s = ["normal_mode", ":w"]
