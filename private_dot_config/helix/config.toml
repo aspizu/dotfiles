@@ -2,3 +2,20 @@ theme = "catppuccin_mocha"
 
 [editor]
 cursorline = true
+rulers = [88]
+bufferline = "always"
+text-width = 88
+
+[editor.indent-guides]
+render = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+[keys.normal]
+C-s = ":w"
+C-q = ":q"
+ret = ["open_below", "normal_mode"]
+
+[keys.insert]
+C-s = ["normal_mode", "write"]
