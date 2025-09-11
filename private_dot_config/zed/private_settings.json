@@ -41,13 +41,14 @@
   "icon_theme": {
     "mode": "system",
     "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+    "dark": "Catppuccin Mocha"
   },
   "ui_font_size": 12,
   "buffer_font_size": 12,
   "buffer_line_height": "standard",
   "toolbar": {
-    "breadcrumbs": false
+    "breadcrumbs": false,
+    "quick_actions": false
   },
   "format_on_save": "on",
   "theme": {
