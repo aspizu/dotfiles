@@ -64,6 +64,18 @@
   ],
   "topBarRightWidgets": [
     {
+      "id": "memUsage",
+      "enabled": true
+    },
+    {
+      "id": "cpuTemp",
+      "enabled": true
+    },
+    {
+      "id": "clipboard",
+      "enabled": true
+    },
+    {
       "id": "notificationButton",
       "enabled": true
     },
@@ -80,10 +92,10 @@
   "spotlightModalViewMode": "list",
   "networkPreference": "auto",
   "iconTheme": "Colloid-Dark",
-  "useOSLogo": false,
+  "useOSLogo": true,
   "osLogoColorOverride": "",
-  "osLogoBrightness": 0.5,
-  "osLogoContrast": 1,
+  "osLogoBrightness": 1,
+  "osLogoContrast": 0,
   "wallpaperDynamicTheming": true,
   "fontFamily": "Google Sans",
   "monoFontFamily": "Monospace",
