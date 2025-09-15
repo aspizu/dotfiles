@@ -109,6 +109,7 @@ layout {
         urgent-color   "#cc4444"      // Softer red
     }
     focus-ring {
+        off
         width 1
         active-color   "#808080"      // Medium gray
         inactive-color "#505050"      // Dark gray
