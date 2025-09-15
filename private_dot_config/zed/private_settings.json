@@ -65,5 +65,18 @@
     "toolbar": {
       "breadcrumbs": false
     }
+  },
+  "languages": {
+    "Python": {
+      "format_on_save": {
+        "external": {
+          "command": "bash",
+          "arguments": [
+            "-c",
+            "ruff check --select=I --exit-zero --fix --stdin-filename {buffer_path} | ruff format --stdin-filename {buffer_path}"
+          ]
+        }
+      }
+    }
   }
 }
