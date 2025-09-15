@@ -141,7 +141,7 @@ spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
 spawn-at-startup "dms" "run"
 spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
 spawn-at-startup "nohup easyeffects --gapplication-service"
-spawn-at-startup "/usr/bin/kdeconnectd"
+spawn-at-startup "nohup /usr/bin/kdeconnectd --replace"
 environment {
   XDG_CURRENT_DESKTOP "niri"
   QT_QPA_PLATFORM "wayland"
