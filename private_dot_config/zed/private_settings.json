@@ -43,6 +43,7 @@
     "light": "Zed (Default)",
     "dark": "Catppuccin Mocha"
   },
+  "buffer_font_family": "Cascadia Code",
   "ui_font_size": 12,
   "buffer_font_size": 12,
   "buffer_line_height": "standard",
